@@ -1,0 +1,51 @@
+/* HIER STYLES FÜR UNTERSCHIEDLICHE DEVICES
+Breakpoint sm: 640px
+Breakpoint md: 768px
+Breakpoint lg: 1024px
+Breakpoint xl: 1280px
+Breakpoint 2xl: 1536px
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: #ffffff;
+}
+
+body {
+  background: #21282e;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  display: inline;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.5em;
+}
+
+a {
+  color: #ffae00;
+  text-decoration: none;
+}
+
+article {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

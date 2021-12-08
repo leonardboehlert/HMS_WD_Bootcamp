@@ -1,0 +1,212 @@
+.intro {
+  width: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-items: center;
+}
+
+.portrait {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.introtext {
+  margin-bottom: 2rem;
+}
+
+.linkbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.vcard {
+  background: #ffae00;
+  color: #21282e;
+  padding: 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.vcard:hover {
+  background-color: #d0d5db;
+}
+
+.summary {
+  background: #1c2126;
+  color: #ffffff;
+  margin-right: -2rem;
+  margin-left: -2rem;
+  padding: 2rem;
+}
+
+.short-summary {
+  text-align: center;
+}
+
+p.summary {
+  margin-top: 1rem;
+}
+
+.more {
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: underline;
+  color: #ffae00;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.long-summary {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.maincontent {
+  display: grid;
+}
+
+.intro {
+  text-align: center;
+}
+
+.info {
+  display: grid;
+  place-items: center;
+}
+
+.contactinfo {
+  border-radius: 5%;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.mainskills {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.areas {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-auto-rows: 2fr;
+  justify-items: space-around;
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+.fa {
+  background-color: #71a7d3;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.area1 {
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.area2 {
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.skills {
+  background: #1c2126;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-right: -2rem;
+  margin-left: -2rem;
+}
+
+.mainskill1,
+.mainskill2 {
+  background-color: #71a7d3;
+  padding: 1rem;
+  border-radius: 150%;
+  vertical-align: center;
+  text-align: center;
+}
+
+.lsskills {
+  display: grid;
+  justify-items: start;
+}
+
+.lsskill2,
+.lsskill3,
+.lsskill4,
+.lsskill5,
+.lsskill6 {
+  background-color: #ffae00;
+  color: #1c2126;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.subskill {
+  background-color: #d0d5db;
+  color: #1c2126;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.webdev {
+  display: none;
+}
+
+.cms {
+  display: none;
+}
+
+.analytics {
+  display: none;
+}
+
+.seo {
+  display: none;
+}
+
+.amazon {
+  display: none;
+}
+
+.experience h2 {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.date {
+  color: #ffae00;
+  margin-top: 1rem;
+}
+
+.profiles {
+  color: #1c2126;
+  margin-right: -2rem;
+  margin-left: -2rem;
+}

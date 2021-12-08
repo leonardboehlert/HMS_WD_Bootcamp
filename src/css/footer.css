@@ -1,0 +1,23 @@
+footer {
+  padding: 10px;
+  vertical-align: center;
+  background: #1c2126;
+  color: #ffffff;
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footericons {
+  justify-items: space-between;
+}
+
+.fa-linkedin,
+.fa-xing {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
